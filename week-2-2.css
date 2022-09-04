@@ -1,0 +1,51 @@
+body {
+    font-family: "Quattrocento", serif;
+  }
+  
+  .container {
+    width: 900px;
+  }
+  
+  nav {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    color: white;
+  }
+  
+  ul > li {
+    padding: 60px;
+    display: inline;
+    width: 120px;
+    margin-left: 20px;
+  }
+  
+  .menu-hover:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    font-size: 76px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+  }
+  
+  .background {
+    width: 1440px;
+    height: auto;
+  }
+  
+  .photo {
+      position: relative;
+      padding-left: 65%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    
+  }
+  
