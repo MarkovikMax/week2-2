@@ -2,11 +2,11 @@ body {
   font-family: "Quattrocento", serif;
   margin: 0;
   color: #ffffff;
-  background-color: blue;
 }
 
 .container {
   min-width: 1440px;
+  margin: 0 auto;
 }
 
 nav {
@@ -32,7 +32,7 @@ ul>li {
   position: relative;
   width: 56px;
   height: 24px;
-  left: -10px;
+  left: 10px;
   top: 40px;
   font-style: normal;
   font-weight: 400;
@@ -66,7 +66,7 @@ ul>li {
   position: relative;
   width: 62px;
   height: 24px;
-  left: 100px;
+  left: 150px;
   top: 40px;
   font-style: normal;
   font-weight: 400;
@@ -83,7 +83,7 @@ ul>li {
   position: relative;
   width: 55px;
   height: 27px;
-  left: 50px;
+  left: 100px;
   top: 40px;
   font-style: normal;
   font-weight: 400;
@@ -100,7 +100,7 @@ ul>li {
   position: relative;
   width: 96px;
   height: 24px;
-  left: 80px;
+  left: 100px;
   top: 40px;
   font-style: normal;
   font-weight: 400;
@@ -117,7 +117,7 @@ ul>li {
   position: relative;
   width: 77px;
   height: 24px;
-  left: 90px;
+  left: 130px;
   top: 40px;
   font-style: normal;
   font-weight: 400;
@@ -137,10 +137,10 @@ ul>li {
 }
 
 h1 {
-  position: absolute;
+  position: relative;
   width: 877px;
   height: 100px;
-  left: 282px;
+  left: 382px;
   top: 280px;
   font-family: 'Ogg';
   font-style: normal;
@@ -203,18 +203,18 @@ h1 {
   height: 805px;
   left: 0px;
   top: 0px;
+  background: url(/img/header-background.png);
   background-repeat: no-repeat;
   image-rendering: optimizeQuality;
   background-size: cover;
-  background: url(/img/header-background.png);
 }
 
 .speaker-image {
-  position: absolute;
+  position: relative;
   width: 640px;
   height: 354px;
-  left: 400px;
-  top: 551px;
+  left: 450px;
+  top: 351px;
   z-index: 1;
   background: url(/img/mullert-photo.png);
 }
